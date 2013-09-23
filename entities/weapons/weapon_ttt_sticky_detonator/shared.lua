@@ -6,16 +6,16 @@ SWEP.HoldType			= "normal"
 
 SWEP.Slot				= 6
 if CLIENT then
-   SWEP.PrintName			= "Sticky bomb"
-   SWEP.Instructions		= ""
+   SWEP.PrintName			= "Sticky Detonator"
+   SWEP.Instructions			= ""
    SWEP.Slot				= 6
-   SWEP.SlotPos			= 0
+   SWEP.SlotPos				= 0
    SWEP.IconLetter			= "u"
    
    SWEP.EquipMenuData = {
       type="Weapon",
       model="models/weapons/w_slam.mdl",
-      name="Sticky bomb",
+      name="Sticky Detonator",
       desc="Bomb that can be placed on a player\nwithout them knowing it.\nCan be detonated on a dead player!"
    };
 
